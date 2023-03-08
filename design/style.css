@@ -12,6 +12,15 @@ title {
 body {
 }
 
+#product {
+  width: 100%;
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 #productType {
 }
 
@@ -25,8 +34,14 @@ body {
 }
 
 /* Desktop View */
-@media screen and (min-width: 1440px) {
-}
+/* @media screen and (max-width: 1440px) {
+} */
 /* Mobile View */
+/* @media screen and (max-width: 550px) {
+} */
+
 @media screen and (min-width: 375px) {
+  #textContainer {
+    flex-direction: row;
+  }
 }
